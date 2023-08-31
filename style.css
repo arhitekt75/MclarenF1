@@ -133,7 +133,7 @@ header .logo img {
     margin: 0 auto;
    /*  height: 20rem; */
     display: grid;
-    grid-template-columns: repeat(6,1fr);
+    grid-template-columns: repeat(5,1fr);
     grid-template-rows: auto;
     grid-gap: 1.5rem;
     background-color: #ff6121ff;
