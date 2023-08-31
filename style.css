@@ -146,7 +146,9 @@ header .logo img {
     gap: 0.5rem;
     align-items: center;
     justify-content: space-between;
-   /*  border: 1px solid black; */
+    /* border: 1px solid rgba(3,3,3,0.6); */
+    padding: 0.5rem;
+    box-shadow: 0 3px 5px 5px rgba(0,0,0,0.4);
 }
 
 .bar-txt {
@@ -166,14 +168,18 @@ header .logo img {
     justify-content: center;
 }
 
-.zach-img img {
+.zach-img img{
     border-radius: 50%;
+    
 }
 
 .zach-txt {
     display: flex;
     flex-direction: column;
     color: rgba(2,2,2,0.7);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .zach-txt h4 {
