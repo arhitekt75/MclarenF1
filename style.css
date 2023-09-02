@@ -203,16 +203,6 @@ header .logo img {
     position: relative;
 }
 
-/* .team .container {
-    width: 100%;
-    height: 100%;
-    background-image: url('img/team.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-} */
-
 .team-up {
     background-color: #ff6121ff;
     width: 10rem;
@@ -237,12 +227,34 @@ header .logo img {
     width: 100%;
     max-width: 1920px;
     margin: 0 auto;
-    height: 100vh;
     padding: 5rem 0;
 }
 
+.news .container .c-box {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
 
+.right-box {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+}
 
+.right-box .b {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+
+}
+
+.right-box .b p {
+    font-size: 0.9rem;
+}
 
 
 
