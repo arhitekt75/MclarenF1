@@ -319,7 +319,11 @@ header .logo img {
     width: 100%;
     max-width: 1920px;
     margin: 0 auto;
-    background-color: #ff6121ff;
+    background-color: rgb(255, 96, 33);
+    background-image: url('img/F1.svg.png');
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
     color: white;
 }
 
