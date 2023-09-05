@@ -232,9 +232,12 @@ header .logo img {
     padding: 4rem 2rem;
 }
 
-.news h3 {
-    margin-bottom: 1rem;
-    text-transform: uppercase;
+.news h2 {
+    letter-spacing: .5rem;
+}
+
+.news .hf span {
+    font-weight: 700;
 }
 
 .news .container .c-box {
@@ -243,6 +246,7 @@ header .logo img {
     display: grid;
     grid-template-columns: 2fr 1fr;
     gap: 1.5rem;
+    margin-top: 1rem;
    
 }
 
@@ -319,17 +323,18 @@ header .logo img {
     width: 100%;
     max-width: 1920px;
     margin: 0 auto;
-    background-color: rgb(255, 96, 33);
+    background-color: #f7f2f2af;
     background-image: url('img/F1.svg.png');
     background-position: center;
-    background-repeat: repeat;
-    background-size: cover;
-    color: white;
+    background-repeat: repeat-x;
+    /* background-size: cover; */
+    color:#0f0f0f;
 }
 
 .legends .container h2 {
     margin-top: 1rem;
     margin-left: 2rem;
+    letter-spacing: .5rem;
 }
 
 .legends img {
@@ -340,15 +345,34 @@ header .logo img {
 
 .legends-grid {
     padding: 3rem 2rem;
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
     height: 100%;
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    gap: 2rem;
+    gap: 4rem;
 }
 
 .legends-grid h3 {
     margin-bottom: 1rem;
+}
+
+.legends-grid .lg{
+    margin: 1rem;
+    /* border-left: 1px solid #333; */
+    padding: .9rem;
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.3);
+}
+
+.hf {
+    display: flex;
+    align-items: center;
+}
+
+.legends .hf span {
+    display: inline-block;
+    margin-top: 1rem;
+    font-weight: 700;
 }
 
 
