@@ -138,7 +138,8 @@ header .logo img {
     grid-template-columns: repeat(5,1fr);
     grid-template-rows: auto;
     grid-gap: 1.5rem;
-    background-color: #ff6121ff;
+    background-image: linear-gradient(#ff6121ff, white);
+    
     padding: 1rem 2rem;
 }
 
@@ -147,7 +148,7 @@ header .logo img {
     flex-direction: column;
     gap: 0.5rem;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
     /* border: 1px solid rgba(3,3,3,0.6); */
     padding: 0.5rem;
     box-shadow: 0 1px 3px 3px rgba(0,0,0,0.4);
@@ -155,10 +156,22 @@ header .logo img {
 
 .bar-txt {
     text-align: center;
+    margin-top: 2rem;
 }
 
 .bar-txt h5 {
     margin-bottom: 0.5rem;
+}
+
+.bar-txt p {
+    font-size: .9rem;
+}
+
+.zach {
+    width: 100%;
+    max-width: 1920px;
+    margin: 5rem auto;
+    /* height: 100vh; */
 }
 
 .zach .container {
