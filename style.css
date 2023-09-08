@@ -54,7 +54,7 @@ a {
 
 nav ul li {
     display: inline-block;
-    margin-right: .8rem;
+    margin-right: 1rem;
     font-weight: 700;
     text-transform: uppercase;
     
@@ -76,6 +76,10 @@ header {
     align-items: center;
     justify-content: space-between;
    /*  border: 1px solid red; */
+}
+
+.logo h4{
+    letter-spacing: .5rem;
 }
 
 header .logo img {
@@ -138,7 +142,7 @@ header .logo img {
     grid-template-columns: repeat(5,1fr);
     grid-template-rows: auto;
     grid-gap: 1.5rem;
-    background-image: linear-gradient(#ff6121ff, white);
+    background-image: linear-gradient(to right,#ff6121ff, white);
     
     padding: 1rem 2rem;
 }
@@ -152,6 +156,7 @@ header .logo img {
     /* border: 1px solid rgba(3,3,3,0.6); */
     padding: 0.5rem;
     box-shadow: 0 1px 3px 3px rgba(0,0,0,0.4);
+   
 }
 
 .bar-txt {
@@ -237,6 +242,36 @@ header .logo img {
     right: 1rem;
 }
 
+.space {
+    width: 100%;
+    max-width: 1920px;
+    height: 5rem;
+    background-image: linear-gradient(to right,#ff6121ff, white);
+}
+
+.history {
+    width: 100%;
+    max-width: 1920px;
+    padding: 5rem 3rem;
+    background-image: url('img/bruce2.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.history .h2 {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.history .h2 span {
+    font-weight: 700;
+    margin-top: .2rem;
+}
+
+.history .h2 h2 {
+    letter-spacing: .3rem;
+}
 
 .news {
     width: 100%;
@@ -246,7 +281,7 @@ header .logo img {
 }
 
 .news h2 {
-    letter-spacing: .5rem;
+    letter-spacing: .3rem;
 }
 
 .news .hf span {
@@ -347,7 +382,7 @@ header .logo img {
 .legends .container h2 {
     margin-top: 1rem;
     margin-left: 2rem;
-    letter-spacing: .5rem;
+    letter-spacing: .3rem;
 }
 
 .legends img {
