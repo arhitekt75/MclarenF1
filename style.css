@@ -142,8 +142,7 @@ header .logo img {
     grid-template-columns: repeat(5,1fr);
     grid-template-rows: auto;
     grid-gap: 1.5rem;
-    background-image: linear-gradient(to right,#ff6121ff, white);
-    
+    background-image: linear-gradient(#ff6121ff, white);
     padding: 1rem 2rem;
 }
 
@@ -245,8 +244,7 @@ header .logo img {
 .space {
     width: 100%;
     max-width: 1920px;
-    height: 5rem;
-    background-image: linear-gradient(to right,#ff6121ff, white);
+    height: 10rem;
 }
 
 .history {
@@ -278,6 +276,7 @@ header .logo img {
     max-width: 1920px;
     margin: 0 auto;
     padding: 4rem 2rem;
+   
 }
 
 .news h2 {
@@ -430,7 +429,22 @@ footer {
     margin: 0 auto;
     padding: 3rem 2rem;
     text-align: center;
-    background-color: #0f0f0f;
-    color: white;
+    background-color: #3a3535;
+    color: #1a1818;
+}
+
+.footer-box{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3rem;
+}
+
+.footer-box img{
+    max-width: 3rem;
+    margin-right: 1rem;
+   
 }
 
