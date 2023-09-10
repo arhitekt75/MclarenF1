@@ -427,9 +427,9 @@ footer {
     width: 100%;
     max-width: 1920px;
     margin: 0 auto;
-    padding: 3rem 2rem;
+    padding: 5rem 2rem;
     text-align: center;
-    background-color: #3a3535;
+    background-color: #706f6f;
     color: #1a1818;
 }
 
@@ -443,8 +443,11 @@ footer {
 }
 
 .footer-box img{
-    max-width: 3rem;
+    max-width: 2rem;
     margin-right: 1rem;
    
 }
 
+.footer-box .f1{
+    max-width: 4rem;
+}
