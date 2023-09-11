@@ -366,6 +366,26 @@ header .logo img {
     margin-top: 0.7rem;
 }
 
+.teams {
+    width: 100%;
+    max-width: 1920px;
+    padding: 5rem 2rem;
+    margin: 5rem 0;
+    background-color: white;
+}
+
+.grid-2 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+}
+
+.teams-txt h4 {
+    margin: 1rem 0 2rem;
+    text-transform: uppercase;
+}
+
 .legends {
     width: 100%;
     max-width: 1920px;
@@ -427,10 +447,10 @@ footer {
     width: 100%;
     max-width: 1920px;
     margin: 0 auto;
-    padding: 5rem 2rem;
+    padding: 5rem 2rem 3rem;
     text-align: center;
-    background-color: #706f6f;
-    color: #1a1818;
+    background-color: #292929;
+    color: #0e0d0d;
 }
 
 .footer-box{
@@ -450,4 +470,12 @@ footer {
 
 .footer-box .f1{
     max-width: 4rem;
+}
+
+.footer-box h4 {
+    text-transform: uppercase;
+}
+
+.footer-bottom {
+    margin-top: 2rem;
 }
