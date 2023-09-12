@@ -381,9 +381,28 @@ header .logo img {
     gap: 1.5rem;
 }
 
-.teams-txt h4 {
+.teams h4 {
     margin: 1rem 0 2rem;
     text-transform: uppercase;
+    letter-spacing: .5rem;
+    background-color: #ff6121ff;
+    color: white;
+    padding: 1rem;
+}
+
+.teams-head {
+    display: flex;
+    align-items: center;
+    letter-spacing: .3rem;
+    margin-bottom: 1rem;
+}
+
+.teams-head span {
+    font-weight: 700;
+}
+
+.teams-txt {
+    margin: 1rem 0 1rem;
 }
 
 .legends {
@@ -447,10 +466,17 @@ footer {
     width: 100%;
     max-width: 1920px;
     margin: 0 auto;
-    padding: 5rem 2rem 3rem;
+    padding: 5rem 2rem 2rem;
     text-align: center;
-    background-color: #292929;
+    background-color: #333;
     color: #0e0d0d;
+}
+
+footer .line {
+    width: 80%;
+    margin: 2rem auto;
+    height: 2px;
+    background-color: #555;
 }
 
 .footer-box{
