@@ -1,15 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <title>McLaren F1</title>
-  </head>
-  <body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <title>McLaren F1</title>
+</head>
+
+<body>
+  <div class="container">
     <header>
       <a href="index.html">
         <div class="logo">
@@ -17,7 +27,7 @@
           <h4>Fan Club</h4>
         </div>
       </a>
-      <nav>
+      <nav class="nav">
         <ul>
           <li><a href="#history">History</a></li>
           <li><a href="#cars">F1 cars</a></li>
@@ -25,7 +35,25 @@
           <li><a href="#legends">Hall of fame</a></li>
         </ul>
       </nav>
+      <div class="hamburger-menu" id="side-menu">
+        <span class="material-symbols-outlined" id="menu-close">
+          cancel
+        </span>
+        <nav>
+          <ul>
+            <li><a href="#history">History</a></li>
+            <li><a href="#cars">F1 cars</a></li>
+            <li><a href="#tracks">F1 tracks</a></li>
+            <li><a href="#legends">Hall of fame</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
+    <div class="hamburger">
+      <span class="material-symbols-outlined" id="menu-open">
+        menu
+      </span>
+    </div>
     <div class="showcase">
       <div class="showcase-txt">
         <h1>McLaren <span>Mercedes</span></h1>
@@ -38,10 +66,9 @@
       <a href="index.html">
         <span class="material-symbols-outlined">
           home
-          </span>
+        </span>
       </a>
     </div>
-
     <main>
       <div class="bar" id="cars">
         <div class="bar-box">
@@ -49,7 +76,10 @@
           <div class="bar-txt">
             <h5>McLaren MCL35 (2020)</h5>
             <p>
-              The MCL35 made its début at the 2020 Austrian Grand Prix after the start of the season was delayed by the COVID-19 pandemic. The MCL35 was driven by Carlos Sainz Jr. and Lando Norris in 2020, with McLaren finishing in third place in the World Constructors' Championship for the first time since 2012 and achieving two podiums. The same car is basically being used for the 2021 season.
+              The MCL35 made its début at the 2020 Austrian Grand Prix after the start of the season was delayed by the
+              COVID-19 pandemic. The MCL35 was driven by Carlos Sainz Jr. and Lando Norris in 2020, with McLaren
+              finishing in third place in the World Constructors' Championship for the first time since 2012 and
+              achieving two podiums. The same car is basically being used for the 2021 season.
             </p>
           </div>
         </div>
@@ -58,7 +88,11 @@
           <div class="bar-txt">
             <h5>McLaren MCL32 (2017)</h5>
             <p>
-              The MCL32 made its competitive début at the 2017 Australian Grand Prix. This was the last McLaren car to be fitted with a Honda engine as it was replaced by Renault engines from the 2018 season onwards. After an improvement in the previous year, 2017 was a rough season for McLaren. The cars were slow and the team's Honda engines proved to be very unreliable and slow. McLaren finished 9th in the Constructors' Championship, with 30 points.
+              The MCL32 made its competitive début at the 2017 Australian Grand Prix. This was the last McLaren car to
+              be fitted with a Honda engine as it was replaced by Renault engines from the 2018 season onwards. After an
+              improvement in the previous year, 2017 was a rough season for McLaren. The cars were slow and the team's
+              Honda engines proved to be very unreliable and slow. McLaren finished 9th in the Constructors'
+              Championship, with 30 points.
             </p>
           </div>
         </div>
@@ -67,7 +101,10 @@
           <div class="bar-txt">
             <h5>McLaren MP4-29 (2014)</h5>
             <p>
-              The MP4-29 was McLaren's first turbo-powered Formula One car since the Honda engined MP4/4. After a third place finish in Australia, things went downhill. The team failed to record another podium finish all season. The MP4-29 was the most mechanically reliable car of the season with 36 classified finishes out of a possible 38, but it was also fifth in the Constructors' Championship.
+              The MP4-29 was McLaren's first turbo-powered Formula One car since the Honda engined MP4/4. After a third
+              place finish in Australia, things went downhill. The team failed to record another podium finish all
+              season. The MP4-29 was the most mechanically reliable car of the season with 36 classified finishes out of
+              a possible 38, but it was also fifth in the Constructors' Championship.
             </p>
           </div>
         </div>
@@ -76,7 +113,10 @@
           <div class="bar-txt">
             <h5>McLaren MP4-25 (2010)</h5>
             <p>
-              The MP4-25 proved to be a stark improvement over the McLaren MP4-24. The most interesting part of the car was its F-duct, a small "snorkel" air scoop mounted in front of the driver that channels air through a duct in the cockpit and towards the rear of the car. Changes in the pressure in the duct reduced drag and allowing the car as much as an extra 6 mph. Wins 5 races and get 16 podiums.. 
+              The MP4-25 proved to be a stark improvement over the McLaren MP4-24. The most interesting part of the car
+              was its F-duct, a small "snorkel" air scoop mounted in front of the driver that channels air through a
+              duct in the cockpit and towards the rear of the car. Changes in the pressure in the duct reduced drag and
+              allowing the car as much as an extra 6 mph. Wins 5 races and get 16 podiums..
             </p>
           </div>
         </div>
@@ -85,312 +125,448 @@
           <div class="bar-txt">
             <h5>McLaren MP4-22 (2007)</h5>
             <p>
-              The car proved to be one of the most competitive of the season, achieving eight victories. Internal infighting was the bigger story at McLaren. The low downforce package of the MP4-22 was extremely competitive. McLaren, with the aid of their improved car, scored as many team points in the first half of 2007 as they had done during the entire year in 2006.
+              The car proved to be one of the most competitive of the season, achieving eight victories. Internal
+              infighting was the bigger story at McLaren. The low downforce package of the MP4-22 was extremely
+              competitive. McLaren, with the aid of their improved car, scored as many team points in the first half of
+              2007 as they had done during the entire year in 2006.
             </p>
           </div>
         </div>
       </div>
       <section class="zach">
-        <div class="container">
-            <div class="zach-img">
-                <img src="img/zach.jpg" alt="">
-            </div>
-            <div class="zach-txt">
-                <p><em><q>Dear McLaren fans, 
+        <div class="zach-img">
+          <img src="img/zach.jpg" alt="">
+        </div>
+        <div class="zach-txt">
+          <p><em><q>Dear McLaren fans,
+                When the first McLaren racing car, the M1A, rolled out of our original Feltham workshop in west London,
+                it set into motion an incredible journey that has spanned the past six decades of competition. From
+                humble beginnings, the company, founded by the legendary Bruce McLaren in 1963, has grown to be one of
+                the biggest and most successful outfits in the history of the sport.
 
-                  When the first McLaren racing car, the M1A, rolled out of our original Feltham workshop in west London, it set into motion an incredible journey that has spanned the past six decades of competition. From humble beginnings, the company, founded by the legendary Bruce McLaren in 1963, has grown to be one of the biggest and most successful outfits in the history of the sport.
-                  
-                  Under his inspirational guidance, McLaren quickly established this team as a leading light in motor racing with our iconic, papaya-liveried machines thrilling fans as they powered to victory in various categories around the world. Today, our aim is to continue the legacy that Bruce started and strive for future success on the race track.</q></em></p>
-                <h3>Zach Brown</h3>
-                <h5>CEO McLaren F1 Racing</h5>
-            </div>
+                Under his inspirational guidance, McLaren quickly established this team as a leading light in motor
+                racing with our iconic, papaya-liveried machines thrilling fans as they powered to victory in various
+                categories around the world. Today, our aim is to continue the legacy that Bruce started and strive for
+                future success on the race track.</q></em></p>
+          <h3>Zach Brown</h3>
+          <h5>CEO McLaren F1 Racing</h5>
         </div>
       </section>
       <section class="team">
-        <div class="container">
-          <div class="team-up"><h3>F1 TEAM</h3></div>
-          <div class="team-down">SIGN UP FOR NEWSLETTER</div>
+        <div class="team-up">
+          <h3>F1 TEAM</h3>
         </div>
+        <div class="team-down">SIGN UP FOR NEWSLETTER</div>
       </section>
       <section class="space"></section>
       <section class="history" id="history">
-            <div class="history-txt">
-              <div class="h2">
-                <h2>History of Mclaren F1</h2>
-                <span class="material-symbols-outlined">
-                  double_arrow
-                  </span>
-              </div>
-              <p>The team won its first world championship in 1974 with Emerson Fittipaldi, and a second came in 1976 courtesy of James Hunt.
-                  But the Teddy Mayer-run outfit fell down the grid before a takeover by Ron Dennis in the early 1980s. The reinvigorated
-                  outfit pioneered the carbon fibre chassis and became the dominant force in F1 from 1984 until the early nineties, with
-                  the likes of Niki Lauda, Alain Prost and Ayrton Senna winning championship.</p>
-                <br>
-                <p>After splitting with Honda it found a new engine partner in Mercedes and added further championships in 1998 and
-                  1999, Mika Hakkinen taking the drivers’ title in both years.More might have followed in 2007 but the team was
-                  implicated in a scandal over alleged spying on rivals Ferrari. Given a record fine of $100m the team were thrown out
-                  of the constructors’ championship and both Lewis Hamilton and Fernando Alonso lost the drivers’ title at the last
-                  round by one point each. The team bounced back to win the drivers’ title with Hamilton in 2008.</p>
-                <br>
-                <p>McLaren’s association with Mercedes came to an end in 2014. The following year it reunited with Honda for the first
-                  time since 1992 but sadly not to reclaim former glory. A disastrous start to the 2015 season continued into
-                  frustrating 2016 where far from a brilliant re-partnership, the team saw its two former-world-champion drivers
-                  frequently struggling to escape Q1.
-                  At the end of 2016, the previously unthinkable happened and Ron Dennis was forced out of the team. However, regime
-                  change in 2017 didn’t alter the results and neither did Button’s retirement and replacement with Stoffel Vandoorne. A
-                  messy divorce from Honda and switch to Renault power in 2018 didn’t entirely right things and both Alonso and
-                  Vandoorne departed the team, leaving F1.</p>
-                <br>
-                <p>Former Red Bull junior Carlos Sainz Jnr and 2018 Formula 2 runner-up Lando Norris replaced them and the team, with
-                  the addition of former Porsche endurance boss Andreas Seidl, seemed to enter a period of steady recovery. Results
-                  improved to see the cars consistently in points-paying positions and Sainz took a third place for the team in Brazil
-                  2019, their first podium since Button had won the same race in 2012. 2020 saw the team further improve, with Norris
-                  and Sainz taking another podium apiece and McLaren finishing third in the world constructors’ championship. However by
-                  2022 they had slipped to fifth and Seidl was lured to join Sauber in advance of the team’s tie-up with Audi. Andrea
-                  Stella was promoted in his place.</p>
-            </div>
-        </div>
-      </section>
-      <section class="space"></section>
-      <section class="news" id="tracks">
-        <div class="container">
-          <div class="hf">
-            <h2>F1 TRACKS</h2>
+        <div class="history-txt">
+          <div class="h2">
+            <h2>History of Mclaren F1</h2>
             <span class="material-symbols-outlined">
               double_arrow
-              </span>
+            </span>
           </div>
-          <div class="c-box">
-              <div class="left-box">
-                <h4>Yas Marina Abu Dhabi - Saudi Arabia</h4>
-                <img src="img/abu_dhabi_yas_marina_circuit.jpg" alt="">
-                <p>Yas Marina Circuit is located on Yas Island, about 30 minutes from Abu Dhabi, the capital of the United Arab Emirates. Approximately 50,000 spectators can view the action on the circuit from permanent, covered grandstands that protect visitors from the desert sun. It is the only F1 motorsports venue in the world where all of the grandstands are covered.</p>
+          <p>The team won its first world championship in 1974 with Emerson Fittipaldi, and a second came in 1976
+            courtesy of James Hunt.
+            But the Teddy Mayer-run outfit fell down the grid before a takeover by Ron Dennis in the early 1980s. The
+            reinvigorated
+            outfit pioneered the carbon fibre chassis and became the dominant force in F1 from 1984 until the early
+            nineties, with
+            the likes of Niki Lauda, Alain Prost and Ayrton Senna winning championship.</p>
+          <br>
+          <p>After splitting with Honda it found a new engine partner in Mercedes and added further championships in
+            1998 and
+            1999, Mika Hakkinen taking the drivers’ title in both years.More might have followed in 2007 but the team
+            was
+            implicated in a scandal over alleged spying on rivals Ferrari. Given a record fine of $100m the team were
+            thrown out
+            of the constructors’ championship and both Lewis Hamilton and Fernando Alonso lost the drivers’ title at the
+            last
+            round by one point each. The team bounced back to win the drivers’ title with Hamilton in 2008.</p>
+          <br>
+          <p>McLaren’s association with Mercedes came to an end in 2014. The following year it reunited with Honda for
+            the first
+            time since 1992 but sadly not to reclaim former glory. A disastrous start to the 2015 season continued into
+            frustrating 2016 where far from a brilliant re-partnership, the team saw its two former-world-champion
+            drivers
+            frequently struggling to escape Q1.
+            At the end of 2016, the previously unthinkable happened and Ron Dennis was forced out of the team. However,
+            regime
+            change in 2017 didn’t alter the results and neither did Button’s retirement and replacement with Stoffel
+            Vandoorne. A
+            messy divorce from Honda and switch to Renault power in 2018 didn’t entirely right things and both Alonso
+            and
+            Vandoorne departed the team, leaving F1.</p>
+          <br>
+          <p>Former Red Bull junior Carlos Sainz Jnr and 2018 Formula 2 runner-up Lando Norris replaced them and the
+            team, with
+            the addition of former Porsche endurance boss Andreas Seidl, seemed to enter a period of steady recovery.
+            Results
+            improved to see the cars consistently in points-paying positions and Sainz took a third place for the team
+            in Brazil
+            2019, their first podium since Button had won the same race in 2012. 2020 saw the team further improve, with
+            Norris
+            and Sainz taking another podium apiece and McLaren finishing third in the world constructors’ championship.
+            However by
+            2022 they had slipped to fifth and Seidl was lured to join Sauber in advance of the team’s tie-up with Audi.
+            Andrea
+            Stella was promoted in his place.</p>
+        </div>
+  </div>
+  </section>
+  <section class="space"></section>
+  <section class="news" id="tracks">
+    <div class="hf">
+      <h2>F1 TRACKS</h2>
+      <span class="material-symbols-outlined">
+        double_arrow
+      </span>
+    </div>
+    <div class="c-box">
+      <div class="left-box">
+        <h4>Yas Marina Abu Dhabi - Saudi Arabia</h4>
+        <img src="img/abu_dhabi_yas_marina_circuit.jpg" alt="">
+        <p>Yas Marina Circuit is located on Yas Island, about 30 minutes from Abu Dhabi, the capital of the United Arab
+          Emirates. Approximately 50,000 spectators can view the action on the circuit from permanent, covered
+          grandstands that protect visitors from the desert sun. It is the only F1 motorsports venue in the world where
+          all of the grandstands are covered.</p>
+        <p>The Yas Marina Circuit is 5.55 kilometers long and can be split into two smaller tracks of 3.1 kilometers and
+          2.4 kilometers, which can operate simultaneously where desired. A total of 21 corners with 9 right turns and
+          12 left turns. The width of the circuit fluctuates from 12-16 meters. The direction is anti-clockwise. The
+          track has a lot of hairpins and long straights and there is few potential overtaking places. The pit lane
+          entry is very challenging, as is the exit, which runs underneath the track in a tunnel.
+        </p>
+        <p>At 2009 Abu Dhabi Grand prix, for the first time in Formula 1 history, a race was scheduled to start in
+          daylight and end during night-time. The race was started approximately one hour before sunset. The permanent
+          lighting system was turned on from the start of the race to ensure a seamless transition from daylight to
+          dark.
 
-                 <p>The Yas Marina Circuit is 5.55 kilometers long and can be split into two smaller tracks of 3.1 kilometers and 2.4 kilometers, which can operate simultaneously where desired. A total of 21 corners with 9 right turns and 12 left turns. The width of the circuit fluctuates from 12-16 meters. The direction is anti-clockwise. The track has a lot of hairpins and long straights and there is few potential overtaking places. The pit lane entry is very challenging, as is the exit, which runs underneath the track in a tunnel.
-                 </p> 
-                 <p>At 2009 Abu Dhabi Grand prix, for the first time in Formula 1 history, a race was scheduled to start in daylight and end during night-time. The race was started approximately one hour before sunset. The permanent lighting system was turned on from the start of the race to ensure a seamless transition from daylight to dark.
-                  
-                  The world's largest indoor theme park, Ferrari World Abu Dhabi, is also located on Yas Island. The park hosts more than 20 rides and attractions. One of the attractions, Formula Rossa, has the same G force one would feel driving in an F1 car and braking at maximum speed. It is the world's fastest roller coaster, powered through the 2.07 km track at speeds up to 240 km/h, reaching 0-100 km/h in less than two seconds. It is so intense that passengers have to protect their eyes with goggles.</p>
-               
-              </div>
-              <div class="right-box">
-                <div class="b">
-                  <div>
-                    <h4>Interlagos - Brazil</h4>
-                    <img src="img/brazil_autodromo_de_interlagos.jpg" alt="">
-                  </div>
-                  <p>Interlagos Circuit, officially named Autodromo Jose Carlos Pace, is regarded as one of the most challenging and exciting circuits on the Formula One calendar. The circuit is located in the outskirts of Sao Paulo, the largest city in Brazil.</p><div class="read-more">
-                    <span class="material-symbols-outlined">
-                      keyboard_double_arrow_right
-                      </span><p>Read more...</p>
-                  </div>
-                </div>
-                <div class="b">
-                  <div>
-                    <h4>Hockenheimring - Germany</h4>
-                    <img src="img/germany-nurburgring.jpg" alt="">
-                  </div>
-                  <p>Hockenheimring, located in Hockenheim 20 kilometers from Heidelberg, hosted the Formula One German Grand Prix for the first time in 1970. The originally circuit built in 1932 used roads in the forest and it was almost eight kilometers long and only for motorcycle racing.</p><div class="read-more">
-                    <span class="material-symbols-outlined">
-                      keyboard_double_arrow_right
-                      </span><p>Read more...</p>
-                  </div>
-                </div>
-                <div class="b">
-                  <div>
-                    <h4>Silverstone - UK</h4>
-                    <img src="img/great_britain_silverstone_circuit.jpg" alt="">
-                  </div>
-                  <p>Silverstone circuit is 5.89 kilometers long and features 18 corners, ten right-handers and eight left-handers. Since 2010 the track layout includes the new Arena complex, a section between Abbey corner and Brooklands which offers three additional overtaking opportunities.</p><div class="read-more">
-                    <span class="material-symbols-outlined">
-                      keyboard_double_arrow_right
-                      </span><p>Read more...</p>
-                  </div>
-                </div>
-                <div class="b">
-                  <div>
-                    <h4>Hungaroring</h4>
-                    <img src="img/hungary_hungaroring.jpg" alt="">
-                  </div>
-                  <p>Hungaroring is regarded as very challenging and tough for the drivers, but also as one of the safest race tracks in Formula 1. The circuit benefits track position, pit strategy, and high downforce. Overtaking is difficult unless the driver in front makes a mistake, so qualifying is really important and you need to start from as high up the grid as possible. </p><div class="read-more">
-                    <span class="material-symbols-outlined">
-                      keyboard_double_arrow_right
-                      </span><p>Read more...</p>
-                  </div>
-                </div>
+          The world's largest indoor theme park, Ferrari World Abu Dhabi, is also located on Yas Island. The park hosts
+          more than 20 rides and attractions. One of the attractions, Formula Rossa, has the same G force one would feel
+          driving in an F1 car and braking at maximum speed. It is the world's fastest roller coaster, powered through
+          the 2.07 km track at speeds up to 240 km/h, reaching 0-100 km/h in less than two seconds. It is so intense
+          that passengers have to protect their eyes with goggles.</p>
+
+      </div>
+      <div class="right-box">
+        <div class="b">
+          <div>
+            <h4>Interlagos - Brazil</h4>
+            <img src="img/brazil_autodromo_de_interlagos.jpg" alt="">
           </div>
-          </div>
-        </div>
-      </section>
-      <section class="teams" id="teams">
-        <div class="container">
-          <div class="teams-head">
-            <h2>OUR TEAM</h2>
-              <span class="material-symbols-outlined">
-                double_arrow
-                </span>
-          </div>
-          <div class="grid-2">
-            <div class="team-left">
-              <h4>Lando Norris</h4>
-              <img src="img/lando.norris.jpg" alt="">
-              <div class="teams-txt">
-                <p>It says a lot about Lando Norris that at only 23, he became McLaren's senior driver. It is the only time in his racing career that he's been the older driver in a team, but with four years, multiple podiums and a pole position in his pocket at the time, he wasn't short of experience. Possessing natural raw pace, Lando's out-and-out speed has always been evident, but during his four seasons, he's carved out a reputation as a quality qualifier and one of the most consistent racers on the grid. Somewhat shy, but with a playful sense of human and boyish charm when he first joined as Test and Simulator Driver in 2017, Lando has grown into a mature and confident leader, with a sharp wit.</p>
-                <br>
-                <p>A gifted karter, Lando remains the youngest driver ever to set a pole position at a national meeting. In 2012, he became Formula Kart Stars champion and runner-up in the MSA Super One British Championship.
-                A year later, he won titles in the CIK-FIA KFJ European, CIK-FIA KFJ Super Cup, WSK Euro Series KFJ, CIK-FIA International Super Cup and World Karting Championship. In addition, he became WSK Masters Series vice-champion. He made history by becoming the youngest karting world championship winner, taking the CIK-FIA KF World Championship title at 14, an accolade previously held by Lewis Hamilton.</p>
-                <br>
-                <p>His graduation to single-seaters only underlined that initial promise. In 2016, he won a slew of single-seater championships – Formula Renault 2.0 Northern European Cup, Formula Renault 2.0 Eurocup and the Toyota Racing Series Championship in New Zealand. He then crowned his season with the McLaren Autosport BRDC Young Driver Award, which was presented to him at the Autosport Awards in December 2016.
-                In 2017, Lando won the European Formula 3 Championship alongside a role as a Test and Simulator Driver for the McLaren Honda Formula 1 team. Following his success in F3, Lando was promoted to Test and Reserve Driver in 2018 and made his debut in F2 with Carlin Racing.</p>
-                <br>
-                <p>It was to be a busy and productive year for the teenager. He began it by contesting the Daytona 24 Hours with United Autosports, gaining valuable experience in a line-up that included Fernando Alonso.
-                His F2 season got off to a superb start when he won the opening feature race in Bahrain, and after that, he was a regular frontrunner, fighting for the title with George Russell and Alex Albon.
-                His progression towards an F1 seat continued when he enjoyed productive FP1 outings in Belgium and Italy, and in September, it was announced that he would partner Carlos Sainz at McLaren in 2018. He then finished a remarkable year in Abu Dhabi by securing the runner-up spot in F2, shortly after his 19th birthday.</p>
-                <br>
-                <p>Still only 19 when he made his debut, Lando enjoyed a remarkable rookie campaign in F1, finishing in the points 11 times and beating his more experienced teammate Carlos Sainz in their head-to-head qualifying battle.
-                He grew in stature during his sophomore campaign, clinching a maiden podium in the opening round at Austria. He'd only finish outside the points four times that season as he became a regular feature in the top 10 and helped the team to their highest finish in the Constructors' Championship since 2012.
-                His stock continued to rise in 2021 as he took four more podiums and heartbreakingly missed out on a first win at the Russian Grand Prix, firmly establishing himself as an F1 frontrunner.</p>
-                <br>
-                <p>Lando was amongst the quickest to adapt following an overhaul to the regulations and a new generation of car in 2022. Lando repeatedly exploited the MCL36's full potential, and then some, collecting a sixth F1 podium against the odds at the Emilia Romagna Grand Prix.
-                Lando emerged as the victor in a highly competitive midfield battle, ending the season as the only driver outside the top three teams to take a podium. He finished directly behind the six drivers from the top three teams, with seventh place in the Drivers' Championship.
-                In the first half of the 2023 season, Lando took back-to-back podiums at the British and Hungarian Grand Prix, finishing second at both and impressing with his skilled drive in the Chrome livery MCL60 at Silverstone against Lewis Hamilton.</p>
-              </div>
-            </div>
-            <div class="team-right">
-              <h4>Oscar Piastri</h4>
-              <img src="img/oscar.piastri.jpeg" alt="">
-              <div class="teams-txt">
-                <p>In a world of few guarantees, Oscar Piastri winning junior single-seater championships became one of them during his climb up the motorsport ladder. In just three years, the Australian won enough trophies to host his own edition of the Oscars.
-                Across those three seasons, Oscar grabbed the Road to F1 by the scruff of the neck, smashing several records on his way to becoming the first driver to win Formula Renault, Formula 3 and Formula 2 consecutively.</p>
-                <br>
-                <p>The Australian is the latest in a long line of Formula 1 drivers from the other side of the Tasman Sea to our New Zealand-born founder, Bruce McLaren. Like Bruce, Oscar exudes calm and is a quick learner, impressing our race team with a composed approach to his first tests, and a clear understanding of the tough task ahead of him.
-                Originally hailing from the Melbourne suburb of Brighton, Oscar began karting at the age of 10 before moving to England in 2016 to pursue his F1 dream. Finishing as British Formula 4 vice-champion in 2017, Oscar's breakthrough campaign came in 2019, as he won Formula Renault Eurocup with seven wins and 11 podiums.</p>
-                <br>
-                <p>COVID-19 delayed his Formula 3 debut by several months and shortened the season to a brutal nine rounds in 11 weeks. Piastri was one of nine different race winners from 18 races, taking two victories and a further four podiums for PREMA Racing, clinching the title in a tense season finale. He did this despite never taking pole, instead relying on astute tyre management, raw pace and consistency. The latter of those is arguably his strongest, most defining attribute – he finished outside of the points just three times.
-                Earning promotion into F2 with PREMA, Piastri used the familiarity and continuity of that relationship to focus on improving his qualifying in pre-season. His efforts were rewarded as he became only the second driver in F2 to take five consecutive pole positions, from Round 4 in Silverstone to the season finale in Abu Dhabi.</p>
-                <br>
-                <p>His F2 title win was much more cut and dry than F3, with six wins and a further five podiums, Oscar clinched the crown emphatically with two races to spare. As with his previous two championship successes, his consistency shone through – he scored 14 top-fives from 23 races, at least one podium every round, and only finished out of the points four times.
-                As a graduate of the Alpine Academy - formerly the Renault Sport Academy - Piastri tested the team’s Renault RS18 F1 car during 2021 and took to the wheel of the Alpine A521 in that year’s end-of-season F1 Young Driver Test at Abu Dhabi.
-                With no F1 vacancy for Piastri in 2022 and due to regulations preventing the F2 Drivers' Champion from returning to compete again, Oscar remained active as the Reserve Driver for the Alpine F1 team, which included test days and race attendance.</p>
-                <br>
-                <p>After joining McLaren in late 2022, Oscar officially linked up with the team at the end of the F1 season to begin an extensive preparation programme, which included the Abu Dhabi Young Driver Test and private tests.
-                Oscar will run #81 on his McLaren car, which was his number in karting. He will become the first driver to carry #81 since drivers were able to choose their race number in 2014.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="legends" id="legends">
-        <div class="container">
-          <div class="hf">
-            <h2>HALL OF FAME</h2>
+          <p>Interlagos Circuit, officially named Autodromo Jose Carlos Pace, is regarded as one of the most challenging
+            and exciting circuits on the Formula One calendar. The circuit is located in the outskirts of Sao Paulo, the
+            largest city in Brazil.</p>
+          <div class="read-more">
             <span class="material-symbols-outlined">
-              double_arrow
-              </span>
-          </div>
-          <div class="legends-grid">
-            <div class="lg">
-              <img src="img/hunt.jpg" alt="">
-              <div class="bio">
-                <h3>James HUNT</h3>
-                <p>No driver before or since has played the role of the Formula One playboy as much as James Hunt.
-                Sex, drugs and alcohol were all a staple part of Hunt's diet even on race weekends but he was still very focused and seriously quick once the visor was down.</p>
-                <br>
-                <p>Hunt spent three years with McLaren from 1976-1978, but it is the 1976 season and his memorable duel with Niki Lauda for which he will forever be remembered.</p> 
-                <br> 
-                <p>Hunt's bravery in dangerously wet conditions in the final round in Japan enabled him to finish third and overturn a three point deficit to beat Lauda who fortuitously withdrew on safety grounds.            
-                Thus, he won the title by a single point.</p>
-              </div>
-              </div>
-            <div class="lg">
-              <img src="img/lauda.jpg" alt="">
-              <div class="bio">
-                <h3>Niki LAUDA</h3>
-                <p>Despite Hunt's dramatic 1976 triumph, Lauda was widely acknowledged as the more complete driver, and his three world titles are testimony to the fact.</p>
-                <br>
-                <p>Lauda was already a double world champion when he came out of retirement for the McLaren team in 1982.
-                He endured two difficult seasons, winning only twice before sealing his third world title by half a point from teammate Alain Prost in 1984.</p>
-              </div>
-            </div>
-            <div class="lg">
-              <img src="img/coulthard.jpg" alt="">
-              <div class="bio">
-                <h3>David COULTHARD</h3>
-                <p>A measure of consistency, David Coulthard won 12 times for McLaren in a career spanning nine seasons for the Woking based team."DC" was unlucky to be racing in the era of Michael Schumacher and teammate Mika Häkkinen and despite enjoying the quickest car in the field in both 1998 and 1999, he couldn't quite put himself in a position to contend for the title.</p>
-                <br>
-                <p>Coulthard finished on the podium no less than 11 times in 2000 and was briefly in title contention before fading to third in the title. He was second to Schumacher in 2001 albeit a massive 58 points adrift.
-                Always a a tough competitor and big fan favourite, Coulthard deservedly makes the top 10.</p>
-              </div>
-            </div>
-            <div class="lg">
-              <img src="img/hakkinen.jpg" alt="">
-              <div class="bio">
-                <h3>Mikka HAKINEN</h3>
-                <p>Mika Häkkinen burst onto the scene in his opening Grand Prix for McLaren in 1993 by outqualifying a dumbstruck Ayrton Senna in Portugal. The next three seasons were studded with podiums in a difficult car but Häkkinen got it all together in 1998 by winning eight races on his way to dominating the season. </p>
-                <br>
-                <p>Five more victories followed in 1999 as surprise package Eddie Irvine pushed him close to the title.
-                Michael Schumacher gained revenge in 2000 as Häkkinen finished second in a valiant title defence but the Flying Finn had already booked his place in McLaren folklore and he remains one of Ron Dennis' favourite sons to this day.</p>
-              </div>
-            </div>
-            <div class="lg">
-              <img src="img/hamilton.jpg" alt="">
-              <div class="bio">
-                <h3>Lewis HAMILTON</h3>
-                <p>Nobody has come as close to winning the drivers' title in their opening season as Lewis Hamilton.
-                A part of Ron Dennis' McLaren family from childhood, Hamilton took the title fight to teammate Fernando Alonso and Ferrari's Kimi Raikkonen from the outset and looked on course to achieve his goal until retirement in China and seventh in Brazil allowed Raikkonen to snatch the title by a single point.</p>
-                <br>
-                <p>However, despair turned to joy a year later when Hamilton sealed the title in the most dramatic of title finishes ever.Passing Timo Glock's ailing Toyota on the final corner meant that Hamilton took fifth place and the title by just a single point from under the nose of the already celebrating Felipe Massa.   Hamilton would go on to secure 11 more wins for McLaren before leaving the team for Mercedes in 2013.</p>
-              </div>
-            </div>
-            <div class="lg">
-              <img src="img/prost.jpg" alt="">
-              <div class="bio">
-                <h3>Alain PROST</h3>
-                <p>Nicknamed 'The Professor' for his calculated approach and smooth driving style, Alain Prost won three world drivers' titles for McLaren and is second on the list on that basis alone. Niki Lauda edged Prost to the title in his opening season for the team but Prost dominated in 1985 to become France's first and only world champion to date. </p>
-                <br>
-                <p>The following year, Prost stole the title at the final race in Adelaide after Nigel Mansell suffered a spectacular tyre blow out. However, it is for his epic battles with teammate Ayrton Senna in 1988 and 1989 that Prost's McLaren career will be remembered for.</p>
-                <br>
-                <p>The Frenchman lost out in 88 before eventually taking the title in controversial circumstances the following year when Senna turned into him at the chicane and was subsequently disqualified for rejoining the circuit via the slip road.</p>
-              </div>
-            </div>
-            <div class="lg">
-              <img src="img/sena.jpg" alt="">
-              <div class="bio">
-                <h3>Airton SENNA</h3>
-                <p>No real surprise here as to who would top the list. The great Brazilian won three titles for McLaren in 1988, 1990 and 1991.In doing so, Senna broke several world records with McLaren many of which stand to this day including most consecutive pole positions (8), most consecutive front row starts (24), most consecutive wins at the same Grand Prix (5 at Monaco) and most wins for a McLaren team at 35.</p>
-              </div>
-            </div>
-            <div class="lg">
-              <img src="img/button.jpg" alt="">
-              <div class="bio">
-                <h3>Jenson BUTTON</h3>
-                <p>It hasn’t been the greatest of seasons for the ‘Froome Flyer’ but he’s not been blessed with the greatest machine McLaren has ever produced in 2013. Still, it must not be forgotten that the 2009 world champion has performed admirably since his move to McLaren in 2010 and as Murray Walker highlights in the above clip, he has scored more points in the years he has been at McLaren than Lewis Hamilton did.</p>
-                <br>
-                <p>It’s an easily forgotten fact that Button finished second to Sebastian Vettel in the 2011 season and at the time of writing he has won eight races for the Woking based team.Button is now one of F1’s elder statesmen at 33 but who knows what the future holds and he could yet rocket up this list in the years to come.</p>
-              </div>
-            </div>
+              keyboard_double_arrow_right
+            </span>
+            <p>Read more...</p>
           </div>
         </div>
-      </section>
-    </main>
-
-    <footer>
-      <div class="footer-box">
-        <h4>McLaren Mercedes F1 Fan Club</h4>
-        <img  class="f1" src="img/logo2.png" alt="">
-        <div>
-          <a href="#"><img src="img/social/facebook.png" alt=""></a>
-          <a href=""><img src="img/social/letter.png" alt=""></a>
-          <a href=""><img src="img/social/linkedin.png" alt=""></a>
-          <a href=""><img src="img/social/phone-call.png" alt=""></a>
-
+        <div class="b">
+          <div>
+            <h4>Hockenheimring - Germany</h4>
+            <img src="img/germany-nurburgring.jpg" alt="">
+          </div>
+          <p>Hockenheimring, located in Hockenheim 20 kilometers from Heidelberg, hosted the Formula One German Grand
+            Prix for the first time in 1970. The originally circuit built in 1932 used roads in the forest and it was
+            almost eight kilometers long and only for motorcycle racing.</p>
+          <div class="read-more">
+            <span class="material-symbols-outlined">
+              keyboard_double_arrow_right
+            </span>
+            <p>Read more...</p>
+          </div>
+        </div>
+        <div class="b">
+          <div>
+            <h4>Silverstone - UK</h4>
+            <img src="img/great_britain_silverstone_circuit.jpg" alt="">
+          </div>
+          <p>Silverstone circuit is 5.89 kilometers long and features 18 corners, ten right-handers and eight
+            left-handers. Since 2010 the track layout includes the new Arena complex, a section between Abbey corner and
+            Brooklands which offers three additional overtaking opportunities.</p>
+          <div class="read-more">
+            <span class="material-symbols-outlined">
+              keyboard_double_arrow_right
+            </span>
+            <p>Read more...</p>
+          </div>
+        </div>
+        <div class="b">
+          <div>
+            <h4>Hungaroring</h4>
+            <img src="img/hungary_hungaroring.jpg" alt="">
+          </div>
+          <p>Hungaroring is regarded as very challenging and tough for the drivers, but also as one of the safest race
+            tracks in Formula 1. The circuit benefits track position, pit strategy, and high downforce. Overtaking is
+            difficult unless the driver in front makes a mistake, so qualifying is really important and you need to
+            start from as high up the grid as possible. </p>
+          <div class="read-more">
+            <span class="material-symbols-outlined">
+              keyboard_double_arrow_right
+            </span>
+            <p>Read more...</p>
+          </div>
         </div>
       </div>
-      <div class="line"></div>
-      <div class="footer-bottom">
-        <h4>Published by BlueSkyStudio &copy2023</h4>
+    </div>
+  </section>
+  <section class="teams" id="teams">
+    <div class="teams-head">
+      <h2>OUR TEAM</h2>
+      <span class="material-symbols-outlined">
+        double_arrow
+      </span>
+    </div>
+    <div class="grid-2">
+      <div class="team-left">
+        <h4>Lando Norris</h4>
+        <img src="img/lando.norris.jpg" alt="">
+        <div class="teams-txt">
+          <p>It says a lot about Lando Norris that at only 23, he became McLaren's senior driver. It is the only time in
+            his racing career that he's been the older driver in a team, but with four years, multiple podiums and a
+            pole position in his pocket at the time, he wasn't short of experience. Possessing natural raw pace, Lando's
+            out-and-out speed has always been evident, but during his four seasons, he's carved out a reputation as a
+            quality qualifier and one of the most consistent racers on the grid. Somewhat shy, but with a playful sense
+            of human and boyish charm when he first joined as Test and Simulator Driver in 2017, Lando has grown into a
+            mature and confident leader, with a sharp wit.</p>
+          <br>
+          <p>A gifted karter, Lando remains the youngest driver ever to set a pole position at a national meeting. In
+            2012, he became Formula Kart Stars champion and runner-up in the MSA Super One British Championship.
+            A year later, he won titles in the CIK-FIA KFJ European, CIK-FIA KFJ Super Cup, WSK Euro Series KFJ, CIK-FIA
+            International Super Cup and World Karting Championship. In addition, he became WSK Masters Series
+            vice-champion. He made history by becoming the youngest karting world championship winner, taking the
+            CIK-FIA KF World Championship title at 14, an accolade previously held by Lewis Hamilton.</p>
+          <br>
+          <p>His graduation to single-seaters only underlined that initial promise. In 2016, he won a slew of
+            single-seater championships – Formula Renault 2.0 Northern European Cup, Formula Renault 2.0 Eurocup and the
+            Toyota Racing Series Championship in New Zealand. He then crowned his season with the McLaren Autosport BRDC
+            Young Driver Award, which was presented to him at the Autosport Awards in December 2016.
+            In 2017, Lando won the European Formula 3 Championship alongside a role as a Test and Simulator Driver for
+            the McLaren Honda Formula 1 team. Following his success in F3, Lando was promoted to Test and Reserve Driver
+            in 2018 and made his debut in F2 with Carlin Racing.</p>
+          <br>
+          <p>It was to be a busy and productive year for the teenager. He began it by contesting the Daytona 24 Hours
+            with United Autosports, gaining valuable experience in a line-up that included Fernando Alonso.
+            His F2 season got off to a superb start when he won the opening feature race in Bahrain, and after that, he
+            was a regular frontrunner, fighting for the title with George Russell and Alex Albon.
+            His progression towards an F1 seat continued when he enjoyed productive FP1 outings in Belgium and Italy,
+            and in September, it was announced that he would partner Carlos Sainz at McLaren in 2018. He then finished a
+            remarkable year in Abu Dhabi by securing the runner-up spot in F2, shortly after his 19th birthday.</p>
+          <br>
+          <p>Still only 19 when he made his debut, Lando enjoyed a remarkable rookie campaign in F1, finishing in the
+            points 11 times and beating his more experienced teammate Carlos Sainz in their head-to-head qualifying
+            battle.
+            He grew in stature during his sophomore campaign, clinching a maiden podium in the opening round at Austria.
+            He'd only finish outside the points four times that season as he became a regular feature in the top 10 and
+            helped the team to their highest finish in the Constructors' Championship since 2012.
+            His stock continued to rise in 2021 as he took four more podiums and heartbreakingly missed out on a first
+            win at the Russian Grand Prix, firmly establishing himself as an F1 frontrunner.</p>
+          <br>
+          <p>Lando was amongst the quickest to adapt following an overhaul to the regulations and a new generation of
+            car in 2022. Lando repeatedly exploited the MCL36's full potential, and then some, collecting a sixth F1
+            podium against the odds at the Emilia Romagna Grand Prix.
+            Lando emerged as the victor in a highly competitive midfield battle, ending the season as the only driver
+            outside the top three teams to take a podium. He finished directly behind the six drivers from the top three
+            teams, with seventh place in the Drivers' Championship.
+            In the first half of the 2023 season, Lando took back-to-back podiums at the British and Hungarian Grand
+            Prix, finishing second at both and impressing with his skilled drive in the Chrome livery MCL60 at
+            Silverstone against Lewis Hamilton.</p>
+        </div>
       </div>
-    </footer>
-  </body>
-  <script src="script.js"></script>
+      <div class="team-right">
+        <h4>Oscar Piastri</h4>
+        <img src="img/oscar.piastri.jpeg" alt="">
+        <div class="teams-txt">
+          <p>In a world of few guarantees, Oscar Piastri winning junior single-seater championships became one of them
+            during his climb up the motorsport ladder. In just three years, the Australian won enough trophies to host
+            his own edition of the Oscars.
+            Across those three seasons, Oscar grabbed the Road to F1 by the scruff of the neck, smashing several records
+            on his way to becoming the first driver to win Formula Renault, Formula 3 and Formula 2 consecutively.</p>
+          <br>
+          <p>The Australian is the latest in a long line of Formula 1 drivers from the other side of the Tasman Sea to
+            our New Zealand-born founder, Bruce McLaren. Like Bruce, Oscar exudes calm and is a quick learner,
+            impressing our race team with a composed approach to his first tests, and a clear understanding of the tough
+            task ahead of him.
+            Originally hailing from the Melbourne suburb of Brighton, Oscar began karting at the age of 10 before moving
+            to England in 2016 to pursue his F1 dream. Finishing as British Formula 4 vice-champion in 2017, Oscar's
+            breakthrough campaign came in 2019, as he won Formula Renault Eurocup with seven wins and 11 podiums.</p>
+          <br>
+          <p>COVID-19 delayed his Formula 3 debut by several months and shortened the season to a brutal nine rounds in
+            11 weeks. Piastri was one of nine different race winners from 18 races, taking two victories and a further
+            four podiums for PREMA Racing, clinching the title in a tense season finale. He did this despite never
+            taking pole, instead relying on astute tyre management, raw pace and consistency. The latter of those is
+            arguably his strongest, most defining attribute – he finished outside of the points just three times.
+            Earning promotion into F2 with PREMA, Piastri used the familiarity and continuity of that relationship to
+            focus on improving his qualifying in pre-season. His efforts were rewarded as he became only the second
+            driver in F2 to take five consecutive pole positions, from Round 4 in Silverstone to the season finale in
+            Abu Dhabi.</p>
+          <br>
+          <p>His F2 title win was much more cut and dry than F3, with six wins and a further five podiums, Oscar
+            clinched the crown emphatically with two races to spare. As with his previous two championship successes,
+            his consistency shone through – he scored 14 top-fives from 23 races, at least one podium every round, and
+            only finished out of the points four times.
+            As a graduate of the Alpine Academy - formerly the Renault Sport Academy - Piastri tested the team’s Renault
+            RS18 F1 car during 2021 and took to the wheel of the Alpine A521 in that year’s end-of-season F1 Young
+            Driver Test at Abu Dhabi.
+            With no F1 vacancy for Piastri in 2022 and due to regulations preventing the F2 Drivers' Champion from
+            returning to compete again, Oscar remained active as the Reserve Driver for the Alpine F1 team, which
+            included test days and race attendance.</p>
+          <br>
+          <p>After joining McLaren in late 2022, Oscar officially linked up with the team at the end of the F1 season to
+            begin an extensive preparation programme, which included the Abu Dhabi Young Driver Test and private tests.
+            Oscar will run #81 on his McLaren car, which was his number in karting. He will become the first driver to
+            carry #81 since drivers were able to choose their race number in 2014.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="legends" id="legends">
+    <div class="hf">
+      <h2>HALL OF FAME</h2>
+      <span class="material-symbols-outlined">
+        double_arrow
+      </span>
+    </div>
+    <div class="legends-grid">
+      <div class="lg">
+        <img src="img/hunt.jpg" alt="">
+        <div class="bio">
+          <h3>James HUNT</h3>
+          <p>No driver before or since has played the role of the Formula One playboy as much as James Hunt.
+            Sex, drugs and alcohol were all a staple part of Hunt's diet even on race weekends but he was still very
+            focused and seriously quick once the visor was down.</p>
+          <br>
+          <p>Hunt spent three years with McLaren from 1976-1978, but it is the 1976 season and his memorable duel with
+            Niki Lauda for which he will forever be remembered.</p>
+          <br>
+          <p>Hunt's bravery in dangerously wet conditions in the final round in Japan enabled him to finish third and
+            overturn a three point deficit to beat Lauda who fortuitously withdrew on safety grounds.
+            Thus, he won the title by a single point.</p>
+        </div>
+      </div>
+      <div class="lg">
+        <img src="img/lauda.jpg" alt="">
+        <div class="bio">
+          <h3>Niki LAUDA</h3>
+          <p>Despite Hunt's dramatic 1976 triumph, Lauda was widely acknowledged as the more complete driver, and his
+            three world titles are testimony to the fact.</p>
+          <br>
+          <p>Lauda was already a double world champion when he came out of retirement for the McLaren team in 1982.
+            He endured two difficult seasons, winning only twice before sealing his third world title by half a point
+            from teammate Alain Prost in 1984.</p>
+        </div>
+      </div>
+      <div class="lg">
+        <img src="img/coulthard.jpg" alt="">
+        <div class="bio">
+          <h3>David COULTHARD</h3>
+          <p>A measure of consistency, David Coulthard won 12 times for McLaren in a career spanning nine seasons for
+            the Woking based team."DC" was unlucky to be racing in the era of Michael Schumacher and teammate Mika
+            Häkkinen and despite enjoying the quickest car in the field in both 1998 and 1999, he couldn't quite put
+            himself in a position to contend for the title.</p>
+          <br>
+          <p>Coulthard finished on the podium no less than 11 times in 2000 and was briefly in title contention before
+            fading to third in the title. He was second to Schumacher in 2001 albeit a massive 58 points adrift.
+            Always a a tough competitor and big fan favourite, Coulthard deservedly makes the top 10.</p>
+        </div>
+      </div>
+      <div class="lg">
+        <img src="img/hakkinen.jpg" alt="">
+        <div class="bio">
+          <h3>Mikka HAKINEN</h3>
+          <p>Mika Häkkinen burst onto the scene in his opening Grand Prix for McLaren in 1993 by outqualifying a
+            dumbstruck Ayrton Senna in Portugal. The next three seasons were studded with podiums in a difficult car but
+            Häkkinen got it all together in 1998 by winning eight races on his way to dominating the season. </p>
+          <br>
+          <p>Five more victories followed in 1999 as surprise package Eddie Irvine pushed him close to the title.
+            Michael Schumacher gained revenge in 2000 as Häkkinen finished second in a valiant title defence but the
+            Flying Finn had already booked his place in McLaren folklore and he remains one of Ron Dennis' favourite
+            sons to this day.</p>
+        </div>
+      </div>
+      <div class="lg">
+        <img src="img/hamilton.jpg" alt="">
+        <div class="bio">
+          <h3>Lewis HAMILTON</h3>
+          <p>Nobody has come as close to winning the drivers' title in their opening season as Lewis Hamilton.
+            A part of Ron Dennis' McLaren family from childhood, Hamilton took the title fight to teammate Fernando
+            Alonso and Ferrari's Kimi Raikkonen from the outset and looked on course to achieve his goal until
+            retirement in China and seventh in Brazil allowed Raikkonen to snatch the title by a single point.</p>
+          <br>
+          <p>However, despair turned to joy a year later when Hamilton sealed the title in the most dramatic of title
+            finishes ever.Passing Timo Glock's ailing Toyota on the final corner meant that Hamilton took fifth place
+            and the title by just a single point from under the nose of the already celebrating Felipe Massa. Hamilton
+            would go on to secure 11 more wins for McLaren before leaving the team for Mercedes in 2013.</p>
+        </div>
+      </div>
+      <div class="lg">
+        <img src="img/prost.jpg" alt="">
+        <div class="bio">
+          <h3>Alain PROST</h3>
+          <p>Nicknamed 'The Professor' for his calculated approach and smooth driving style, Alain Prost won three world
+            drivers' titles for McLaren and is second on the list on that basis alone. Niki Lauda edged Prost to the
+            title in his opening season for the team but Prost dominated in 1985 to become France's first and only world
+            champion to date. </p>
+          <br>
+          <p>The following year, Prost stole the title at the final race in Adelaide after Nigel Mansell suffered a
+            spectacular tyre blow out. However, it is for his epic battles with teammate Ayrton Senna in 1988 and 1989
+            that Prost's McLaren career will be remembered for.</p>
+          <br>
+          <p>The Frenchman lost out in 88 before eventually taking the title in controversial circumstances the
+            following year when Senna turned into him at the chicane and was subsequently disqualified for rejoining the
+            circuit via the slip road.</p>
+        </div>
+      </div>
+      <div class="lg">
+        <img src="img/sena.jpg" alt="">
+        <div class="bio">
+          <h3>Airton SENNA</h3>
+          <p>No real surprise here as to who would top the list. The great Brazilian won three titles for McLaren in
+            1988, 1990 and 1991.In doing so, Senna broke several world records with McLaren many of which stand to this
+            day including most consecutive pole positions (8), most consecutive front row starts (24), most consecutive
+            wins at the same Grand Prix (5 at Monaco) and most wins for a McLaren team at 35.</p>
+        </div>
+      </div>
+      <div class="lg">
+        <img src="img/button.jpg" alt="">
+        <div class="bio">
+          <h3>Jenson BUTTON</h3>
+          <p>It hasn’t been the greatest of seasons for the ‘Froome Flyer’ but he’s not been blessed with the greatest
+            machine McLaren has ever produced in 2013. Still, it must not be forgotten that the 2009 world champion has
+            performed admirably since his move to McLaren in 2010 and as Murray Walker highlights in the above clip, he
+            has scored more points in the years he has been at McLaren than Lewis Hamilton did.</p>
+          <br>
+          <p>It’s an easily forgotten fact that Button finished second to Sebastian Vettel in the 2011 season and at the
+            time of writing he has won eight races for the Woking based team.Button is now one of F1’s elder statesmen
+            at 33 but who knows what the future holds and he could yet rocket up this list in the years to come.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  </main>
+
+  <footer>
+    <div class="footer-box">
+      <h4>McLaren Mercedes F1 Fan Club</h4>
+      <img class="f1" src="img/logo2.png" alt="">
+      <div>
+        <a href="#"><img src="img/social/facebook.png" alt=""></a>
+        <a href=""><img src="img/social/letter.png" alt=""></a>
+        <a href=""><img src="img/social/linkedin.png" alt=""></a>
+        <a href=""><img src="img/social/phone-call.png" alt=""></a>
+      </div>
+    </div>
+    <div class="line"></div>
+    <div class="footer-bottom">
+      <h4>Published by BlueSkyStudio &copy2023</h4>
+    </div>
+  </footer>
+  </div>
+</body>
+<script src="script.js"></script>
+
 </html>
