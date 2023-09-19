@@ -21,6 +21,10 @@ html {
     font-family: 'Roboto', sans-serif;
 }
 
+/* body {
+    overflow: hidden;
+}
+ */
 
 
 img {
@@ -429,10 +433,27 @@ header .logo img {
 }
 
 .teams {
-    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    width: 80%;
     padding: 5rem 2rem;
-    margin: 5rem 0;
+    margin: 5rem auto;
     background-color: white;
+    border: 1px solid #333;
+    transition: .5s ease-in-out;
+    display: none;
+}
+
+.teams #menu-close2 {
+    position: absolute;
+    bottom: 2rem;
+    right: 2rem;
+}
+
+.teams #menu-close2:hover {
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 .grid-2 {
@@ -581,6 +602,14 @@ footer .line {
 
     .hamburger {
         display: block;
+    }
+
+    .hamburger:hover {
+        transform: scale(1.1);
+    }
+
+    #menu-close:hover {
+        transform: scale(1.1);
     }
 
     .bar {
