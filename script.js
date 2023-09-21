@@ -23,6 +23,7 @@ function closeMenu(){
 
 function teamsOpen() {
     teams.style.display='block';
+    
   
 }
 

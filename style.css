@@ -57,6 +57,19 @@ a {
     margin-top: 0.7rem;
 }
 
+.btn2 {
+    width: 5rem;
+    border: none;
+    background-color:#ff6121ff;
+    color: white;
+    padding: .5rem .8rem;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-size: .7rem;
+    letter-spacing: .1rem;
+    text-align: center;
+}
+
 .btn:hover {
     border: 1px solid #0f0f0f;
     color: #0f0f0f;
@@ -225,6 +238,12 @@ header .logo img {
     padding: 0;
     box-shadow: 0 1px 3px 3px rgba(0,0,0,0.4);
    
+}
+
+.bar-box:hover {
+    transform: scale(1.05);
+    transition: transform .3s ease-in-out;
+    cursor: pointer;
 }
 
 .bar-box img {
@@ -443,12 +462,13 @@ header .logo img {
     border: 1px solid #333;
     transition: .5s ease-in-out;
     display: none;
+    
 }
 
 .teams #menu-close2 {
     position: absolute;
     bottom: 2rem;
-    right: 2rem;
+    right:2rem;
 }
 
 .teams #menu-close2:hover {
