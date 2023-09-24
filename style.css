@@ -63,7 +63,7 @@ a {
     background-color:#ff6121ff;
     color: white;
     padding: .5rem .8rem;
-    border-radius: 10px;
+    border-radius: 5px;
     text-transform: uppercase;
     font-size: .7rem;
     letter-spacing: .1rem;
@@ -568,8 +568,8 @@ footer {
     margin: 0 auto;
     padding: 5rem 2rem 2rem;
     text-align: center;
-    background-color: #3d3d3d;
-    color: rgb(19, 18, 18);
+    background-color: #1a1818;
+    color: white;
 }
 
 footer .line {
@@ -587,6 +587,7 @@ footer .line {
     justify-content: space-between;
     padding: 0 3rem;
 }
+
 
 .footer-box img{
     max-width: 2rem;
