@@ -221,14 +221,16 @@ header .logo img {
     margin: 0 auto;
    /*  height: 20rem; */
     display: grid;
-    grid-template-columns: repeat(5,1fr);
-    grid-template-rows: auto;
+    grid-template-columns: repeat(5, 2fr);
     grid-gap: 1.5rem;
     background-image: linear-gradient(#ff6121ff, white);
     padding: 1rem 2rem;
+    justify-items: space-between;
 }
 
 .bar-box {
+    max-width: 17rem;
+    justify-self: center;
     display: flex;
     flex-direction: column;
     gap: 0.2rem;
@@ -236,6 +238,7 @@ header .logo img {
     justify-content: flex-start;
     /* border: 1px solid rgba(3,3,3,0.6); */
     padding: 0;
+    margin: 1rem 0;
     box-shadow: 0 1px 3px 3px rgba(0,0,0,0.4);
    
 }
@@ -634,10 +637,43 @@ footer .line {
     }
 
     .bar {
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(2, 2fr);
     }
 
     .zach {
+        width: 100%;
+        margin: 2rem auto;
         grid-template-columns: 1fr;
+        padding: 3rem 2rem;
     }
+
+    .zach-img {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .zach-txt {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .space {
+        height: 3rem;
+    }
+    
+    .news {
+        padding: 2rem 2rem;
+       
+    }
+
+    .footer-box .f1{
+        display: none;
+    }
+
+    .footer-box div {
+        width: 70%;
+        margin-left: 1rem;
+    }
+    
+    
 }
