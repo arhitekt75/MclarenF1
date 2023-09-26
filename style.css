@@ -249,9 +249,9 @@ header .logo img {
     cursor: pointer;
 }
 
-.bar-box img {
+/* .bar-box img {
     max-height: 50%;
-}
+} */
 
 .bar-txt {
     text-align: center;
