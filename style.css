@@ -21,12 +21,6 @@ html {
     font-family: 'Roboto', sans-serif;
 }
 
-/* body {
-    overflow: hidden;
-}
- */
-
-
 img {
     width: 100%;
 }
@@ -92,7 +86,6 @@ nav ul li {
 nav ul li a:hover {
     color: rgb(255, 48, 33);
     font-weight: 700;
-   /*  border-bottom: 1px solid  rgb(255, 48, 33); */
 }
 
 header {
@@ -106,7 +99,7 @@ header {
     position: fixed;
     top: 0;
     left: 0;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 .logo h4{
@@ -162,7 +155,6 @@ header .logo img {
     display: flex;
     align-items: center;
     background-color: #1a1818;
-    /* position: relative; */
     z-index: 3;
 }
 
@@ -240,7 +232,6 @@ header .logo img {
     gap: 0.2rem;
     align-items: center;
     justify-content: flex-start;
-    /* border: 1px solid rgba(3,3,3,0.6); */
     padding: 0;
     margin: 1rem 0;
     box-shadow: 0 1px 3px 3px rgba(0,0,0,0.4);
@@ -252,10 +243,6 @@ header .logo img {
     transition: transform .3s ease-in-out;
     cursor: pointer;
 }
-
-/* .bar-box img {
-    max-height: 50%;
-} */
 
 .bar-txt {
     text-align: center;
@@ -280,7 +267,6 @@ header .logo img {
     padding: 5rem 2rem;
     align-items: center;
     justify-content: center;
-    /* height: 100vh; */
 }
 
 .zach-img img{
@@ -314,7 +300,6 @@ header .logo img {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    /* position: relative; */
 }
 
 .team-up {
@@ -516,7 +501,6 @@ header .logo img {
     background-image: url('img/F1.svg.png');
     background-position: center;
     background-repeat: repeat-x;
-    /* background-size: cover; */
     color:#0f0f0f;
 }
 
@@ -548,7 +532,6 @@ header .logo img {
 
 .legends-grid .lg{
     margin: 1rem;
-    /* border-left: 1px solid #333; */
     padding: .9rem;
     box-shadow: 0px 1px 3px rgba(0,0,0,0.3);
 }
