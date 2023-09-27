@@ -14,11 +14,13 @@ menu_close2.addEventListener('click',teamsClose);
 function openMenu(){
     side_menu.style.display = 'block';
     body.style.overflowY = 'hidden';
+    menu_open.style.display = 'none';
 }
 
 function closeMenu(){
     side_menu.style.display = 'none';
     body.style.overflowY = 'visible';
+    menu_open.style.display = 'block';
 }
 
 function teamsOpen() {

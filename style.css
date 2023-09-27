@@ -103,7 +103,10 @@ header {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-   /*  border: 1px solid red; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
 }
 
 .logo h4{
@@ -115,11 +118,12 @@ header .logo img {
 }
 
 .hamburger {
-    position: absolute;
+    position: fixed;
     top: 1.2rem;
     right: 1rem;
     display: none;
     cursor: pointer;
+    z-index: 5;
 }
 
 .hamburger-menu {
@@ -310,26 +314,21 @@ header .logo img {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
+    /* position: relative; */
 }
 
 .team-up {
     background-color: #ff6121ff;
-    width: 10rem;
-    padding: .7rem;
-    text-align: center;
-    position: absolute;
-    top: 1rem;
-    left: 1rem;
-}
-.team-down {
-    background-color: #ff6121ff;
     width: 15rem;
     padding: .7rem;
     text-align: center;
-    position: absolute;
-    bottom: 1rem;
-    right: 1rem;
+    position: relative;
+    top: 1rem;
+    left: 1rem;
+}
+
+.team .team-up:hover{
+    transform: scale(.95);
 }
 
 .space {
