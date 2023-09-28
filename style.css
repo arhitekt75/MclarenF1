@@ -152,7 +152,7 @@ header .logo img {
 .showcase {
     width: 100%;
     margin: 0 auto;
-    height: 90vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     background-color: #1a1818;
