@@ -54,7 +54,7 @@ a {
 .btn2 {
     width: 5rem;
     border: none;
-    background-color:#ff6121ff;
+    background-color:#ff7300;
     color: white;
     padding: .5rem .8rem;
     border-radius: 5px;
@@ -129,7 +129,6 @@ header .logo img {
     background-color: rgb(238, 229, 229);
     z-index: 3;
     display: none;
-   
 }
 
 .hamburger-menu ul {
@@ -176,7 +175,7 @@ header .logo img {
 }
 
 .showcase-txt h1 span {
-    color: #ff6121ff;
+    color: #ff7300;
 }
 
 .showcase-txt h3 {
@@ -199,7 +198,7 @@ header .logo img {
 .home {
     width: 1.8rem;
     height: 1.8rem;
-    background-color:#ff6121ff;
+    background-color:#ff7300;
     position: fixed;
     right: 0%;
     top: 50%;
@@ -220,7 +219,7 @@ header .logo img {
     display: grid;
     grid-template-columns: repeat(5, 2fr);
     grid-gap: 1.5rem;
-    background-image: linear-gradient(#ff6121ff, white);
+    background-image: linear-gradient(#ff7300, white);
     padding: 1rem 2rem;
     justify-items: space-between;
 }
@@ -304,7 +303,7 @@ header .logo img {
 }
 
 .team-up {
-    background-color: #ff6121ff;
+    background-color: #ff7300;
     width: 15rem;
     padding: .7rem;
     text-align: center;
@@ -383,7 +382,7 @@ header .logo img {
     display: flex;
     width: 10rem;
     margin-top: .7rem;
-    color: #ff6121ff;
+    color: #ff7300;
 }
 
 .left-box div:hover{
@@ -425,7 +424,7 @@ header .logo img {
     justify-self: end;
     display: flex;
     width: 10rem;
-    color: #ff6121ff;
+    color: #ff7300;
     align-items: center;
     padding-bottom: 0.5rem;
 }
@@ -494,7 +493,7 @@ header .logo img {
     margin: 1rem 0 2rem;
     text-transform: uppercase;
     letter-spacing: .5rem;
-    background-color: #ff6121ff;
+    background-color: #ff7300;
     color: white;
     padding: 1rem;
 }
@@ -591,6 +590,10 @@ footer .line {
     align-items: center;
     justify-content: space-between;
     padding: 0 3rem;
+}
+
+.footer-box span {
+    color: #ff7300;
 }
 
 
