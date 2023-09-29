@@ -195,23 +195,6 @@ header .logo img {
     animation: f1 2s ease-in;
 }
 
-.home {
-    width: 1.8rem;
-    height: 1.8rem;
-    background-color:#ff7300;
-    position: fixed;
-    right: 0%;
-    top: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.home span {
-    color: white;
-}
-
-
 .bar {
     width: 100%;
     margin: 0 auto;
@@ -603,6 +586,11 @@ footer .line {
    
 }
 
+.footer-box img:hover{
+    transform: scale(1.1);
+   
+}
+
 .footer-box .f1{
     max-width: 4rem;
 }
@@ -679,6 +667,124 @@ footer .line {
         width: 70%;
         margin-left: 1rem;
     }
+}
+
+@media screen and (max-width:640px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .showcase-txt {
+        width: 100%;
+        height: 100%;
+        align-items: center;
+    }
+
+    .showcase-img {
+        display: none;
+    }
+
+    .showcase-txt h1 {
+        font-size: 2rem;
+    }
     
+    .showcase-txt h3 {
+        font-size: 1rem;
+        letter-spacing: 0.3rem;
+        color: #d1c5c5;
+        text-transform: uppercase;
+    }
+
+    .btn {
+        width: 200px;
+        border: 1px solid white;
+        border-radius: 5px;
+        padding: .7rem 1.8rem;
+        color: white;
+        margin-top: 0.7rem;
+        text-align: center;
+    }
+    
+    .bar {
+        width: 100%;
+        grid-template-columns: 1fr;
+        grid-gap: 1.5rem;
+        background-image: linear-gradient(#ff7300, white);
+        padding: 1rem 2rem;
+        justify-items: space-between;
+    }
+
+    .bar-box {
+        max-width: 15rem;
+    }
+
+    .bar-box img {
+        height: 50%;
+    }
+
+    .zach-txt {
+        font-size: .8rem;
+    }
+    
+    .zach {
+        width: 100%;
+        margin: 1rem auto;
+    }
+
+    .team {
+        height: 60vh;
+        margin: 0 auto;
+    }
+    
+    .team-up {
+        font-size: .8rem;
+        padding-left: .8rem;
+        padding-right: .8rem;
+    }
+
+    .history {
+        padding: 2rem 1rem;
+        background-image: url('img/bruce2.jpeg');
+    }
+
+    .history .h2 span {
+        font-weight: 500;
+    }
+    
+    .history h2 {
+        font-size: 1.4rem;
+    }
+
+    .history-txt p {
+        font-size: .8rem;
+    }
+    
+    .news .c-box {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .news .c-box p {
+       font-size: .8rem;
+    }
+
+    .hf h2{
+        font-size: 1.4rem;
+    }
+
+    .teams-head h2 {
+        font-size: 1.4rem;
+    }
+
+    .legends-grid {
+        padding: 2rem 1rem;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .lg p {
+        font-size: .8rem;
+    }
     
 }
