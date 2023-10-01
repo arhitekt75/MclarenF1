@@ -449,7 +449,6 @@ header .logo img {
     margin: 5rem auto;
     background-color: white;
     border: 1px solid #333;
-    transition: .5s ease-in-out;
     display: none;
     
 }
@@ -786,5 +785,55 @@ footer .line {
     .lg p {
         font-size: .8rem;
     }
+
+    .grid-2 {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    
+    .teams {
+        padding-top: 1.5rem;
+    }
+
+    .teams h2 {
+        font-size: 1.3rem;
+    }
+
+    .teams h4 {
+        font-size: .8rem;
+    }
+    
+    
+    .teams-txt {
+       font-size: .6rem;
+    }
+    
+
+
+    footer {
+        padding: 1.5rem;
+    }
+
+    .footer-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+       
+    }
+
+    .footer-box h4 {
+        font-size: .5rem;
+        margin-bottom: 1rem;
+    }
+
+    .footer-box img {
+       width: 10%;
+    }
+
+    .footer-bottom h4 {
+        font-size: .6rem;
+    }
+    
     
 }
